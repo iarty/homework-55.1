@@ -1,0 +1,11 @@
+.square {
+  width: 75px;
+  height: 75px;
+  background: #6e6d6d;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.square:hover{
+  background: #a1a0a0;
+}
