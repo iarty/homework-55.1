@@ -15,6 +15,5 @@ export default function square({ item, isHide, index, newGame, tries, stopGame }
       clsName.splice(1, 1, classes.show)
     }
   }
-  console.log(item.show, stopGame)
   return <div className={clsName.join(' ')} onClick={item.show || stopGame ? null : () => isHide(index, item.hasItem)} />
 }
